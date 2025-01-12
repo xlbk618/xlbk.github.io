@@ -1,0 +1,349 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.toubu{
+	width: 100%;
+	min-width: 1200px;
+	height: 150px;
+	background-color: #aaa;
+}
+.toubu .aaa{
+	font-size: 20px;
+	font-family: 华文琥珀;
+	color: #fff;
+	float: left;
+	margin-left: 30px;
+	line-height: 150px;
+}
+.toubu img{
+	height: 90px;
+	float: left;
+	margin-top: 30px;
+}
+
+.toubu ul{
+	width: 1000px;
+	list-style: none;
+	margin: 0 auto;
+	line-height: 150px;
+}
+.toubu ul li{
+	float: left;
+	margin-right: 50px;
+}
+.toubu ul li a{
+	font-size: 25px;
+}
+.toubu ul li::after{
+	content: '|';
+	color: #fff;
+	font-size: 25px;
+	margin-left: 50px;
+}
+.toubu ul li:last-child::after{
+	display: none;
+}
+.toubu ul li:hover a{
+	color: #000;
+	font-weight: bold;
+}
+.toubu p{
+	margin-right: 20px;
+	margin-top: 35px;
+	float: right;
+}
+.toubu p i{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.toubu p{
+	display: inline-block;
+	width: 200px;
+	height: 25px;
+	border: 3px solid #666;
+	color: rgba(0,0,0,.5);
+}
+.toubu p span{
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	float: right;
+	border: 3px solid #cf1132;
+	background-color: #cf1132;
+	color: #fff;
+	font-size: 微软雅黑;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+.zj{
+	width: 100%;
+}
+
+.zj .box{
+	margin: 50px auto;
+	overflow: hidden;
+	width: 1000px;
+	height: 532px;
+}
+.zj .box ul{
+	width: 6000px;
+	height: 532px;
+	list-style: none;
+	animation: tu 15s infinite ease-out;
+}
+@keyframes tu{
+	0%{transform: translate(0px)}
+	10%{transform: translate(-1000px)}
+	20%{transform: translate(-1000px)}
+	30%{transform: translate(-2000px)}
+	40%{transform: translate(-2000px)}
+	50%{transform: translate(-3000px)}
+	60%{transform: translate(-3000px)}
+	70%{transform: translate(-4000px)}
+	80%{transform: translate(-4000px)}
+	90%{transform: translate(-5000px)}
+	100%{transform: translate(-5000px)}
+}
+.zj .box ul li{
+	float: left;
+}
+.zj .box ul li img{
+	width: 1000px;
+	height: 532px;
+}
+
+
+
+/* .zj .fz{
+	width: 900px;
+}
+.zj .fz .tp{
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 900px;
+}
+.zj .fz .tp li{
+	position: relative;
+	perspective: 900px;
+}
+.zj .fz .tp li img{
+	width: 200px;
+	height: 200px;
+	transition: 1s;
+}
+.zj .fz .tp li p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 16px;
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	background-color: rgba(0,0,0,.7);
+	font-size: 18px;
+	font-family: 黑体;
+	line-height: 130px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	transition: 1s;
+	transform: rotateY(90deg);
+}
+.zj .fz .tp li:hover p{
+	transform: rotateY(0);
+}
+.zj .fz .tp li:hover img{
+	transform: rotateY(-90deg);
+}
+/* .zj .sfq .tq */
+/* .zj .sfq .tq{
+	margin: 50px auto;
+	width: 1200px;
+	overflow: hidden;
+	font-size: 0;
+}
+.zj .sfq .tq li{
+	float: left;
+	list-style: none;
+	width: 100px;
+	transition: width 1s;
+}
+.zj .sfq .tq li:hover{
+	width: 800px;
+}
+.zj .sfq .tq img{
+	width: 800px;
+	border-left: 4px solid #fff;
+	box-sizing: border-box;
+}
+.zj .sfq .tq li:first-child img{
+	border-left: 0;
+}
+.zj .sfq .tq p{
+	width: 800px;
+	height: 40px;
+	background-color: #ccc;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 黑体;
+	line-height: 40px;
+}
+.zj .sfq .tq p .aaa{
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+	color: #800;
+} */
+
+.zj .fz .tp{
+	width: 1100px;
+	height: 280px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.zj .fz .tp li{
+	float: left;
+	width: 250px;
+	
+}
+.zj .fz .tp li img{
+	width: 240px;
+}
+.zj .fz .tp li span{
+	display: inline-block;
+	font-size: 30px;
+	color: #000;
+	font-family: 隶书;
+	margin-left: 70px;
+}
+
+.zj .sfq .tq{
+	width: 1100px;
+	height: 280px;
+	margin: 70px auto;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.zj .sfq .tq li{
+	float: left;
+	width: 250px;
+	
+}
+.zj .sfq .tq li img{
+	width: 240px;
+}
+.zj .sfq .tq li span{
+	display: inline-block;
+	font-size: 30px;
+	color: #000;
+	font-family: 隶书;
+	margin-left: 70px;
+}
+.zj .bt{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	color: #000;
+	font-family: 楷体;
+	margin-top: 30px;
+}
+
+.zj .box-1{
+	margin: 50px auto;
+	overflow: hidden;
+	width: 1000px;
+	height: 532px;
+}
+.zj .box-1 ul{
+	width: 9000px;
+	height: 563px;
+	list-style: none;
+	animation: tu-1 15s infinite ease-out;
+}
+@keyframes tu-1{
+	0%{transform: translate(0px)}
+	6.25%{transform: translate(-1000px)}
+	12.5%{transform: translate(-1000px)}
+	18.75%{transform: translate(-2000px)}
+	25%{transform: translate(-2000px)}
+	31.25%{transform: translate(-3000px)}
+	37.5%{transform: translate(-3000px)}
+	43.75%{transform: translate(-4000px)}
+	50%{transform: translate(-4000px)}
+	56.25%{transform: translate(-5000px)}
+	62.5%{transform: translate(-5000px)}
+	68.75%{transform: translate(-6000px)}
+	75%{transform: translate(-6000px)}
+	81.25%{transform: translate(-7000px)}
+	87.5%{transform: translate(-7000px)}
+	93.75%{transform: translate(-8000px)}
+	100%{transform: translate(-8000px)}
+}
+.zj .box-1 ul li{
+	float: left;
+}
+.zj .box-1 ul li img{
+	width: 1000px;
+	height: 563px;
+}
+.zj .box-1::before{
+	content: '广告X';
+	width: 45px;
+	height: 20px;
+	display: inline-block;
+	background-color: #aaa;
+	color: #fff;
+	top: 0;
+	left: 0;
+	
+}
+.zj .box-1:hover::before{
+	color: #cf1132;
+}
+
+
+
+
+.footer{
+	clear: both;
+	width: 100%;
+	background-color: #272a2c;
+	padding-bottom: 40px;
+	margin-top: 100px;
+}
+.footer .logoLine{
+	float: left;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 40px 0;
+}
+.footer .logoLine img{
+	height: 90px;
+	margin-right: 100px;
+	margin-left: 200px;
+}
+.footer .logoLine div{
+	font-size: 14px;
+	color: #fff;
+	line-height: 50px;
+}
+.footer .text{
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+	margin-left: 200px;
+}
